@@ -1,0 +1,32 @@
+.VideoContainer{
+    display: flex;
+}
+.description_container{
+    margin-left: 10px;
+}
+.description_container h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+.description_container p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #606060;
+}
+.avatar_section{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    
+}
+.verified{
+    font-size: 15px !important;
+}
+.avatar_section p{
+    margin-left: 5px;
+    font-weight: 14px;
+}
+.description_container span{
+    font-size: 14px;
+    color: #606060;
+}

@@ -1,0 +1,33 @@
+.Sidebar{
+    flex: 0.15;
+    
+}
+.Sidebar_labels{
+    display:flex;
+    align-items: center;
+    flex: 1;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.Sidebar_labels h2{
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.Sidebar_labels h3{
+    font-size: 15.5px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.Sidebar_labels:hover{
+    background-color: lightgray;
+}
+.iconTag{
+    flex: 1;
+    margin: 0 10px;
+   
+}
+.iconTag #selected{
+    background-color: gray;
+}

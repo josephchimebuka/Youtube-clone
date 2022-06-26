@@ -1,0 +1,60 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.logo{
+    height: 50px;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+}
+.header_middle{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    height: 40px;
+}
+.header_center{
+    display: flex;
+    align-items: center;
+}
+.header_middle .search{
+    border-left: 1px solid lightgray;
+    width: 40px !important;
+    height: 40px;
+    cursor: pointer;
+}
+ .search-icon{
+    width: 30px !important;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.header_center .mic{
+    width: 30px !important;
+    height: 30px !important;
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.header_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.header_middle .input{
+    width: 500px;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+.input::placeholder{
+    font-size: 16px;
+    font-weight: 300;
+}

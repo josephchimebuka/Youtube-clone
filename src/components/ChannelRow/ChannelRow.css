@@ -1,0 +1,45 @@
+.ChannelRow{
+    display: flex;
+    align-items: center;
+    margin: 70px;
+}
+.channelRow_text{
+    margin-left: 50px;
+    width: 70%;
+  
+}
+.VideoImage{
+    width: 150px !important;
+    height: 150px !important;
+    width: 15%;
+}
+.channelRow_text h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.channelRow_text p{
+    font-size: 14px;
+    color:gray;
+    margin-bottom: 5px;
+}
+.channelRow_text span{
+    font-size: 14px;
+    color:gray;
+   
+}
+.ChannelRow .subscibeOptions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+.subscibeOptions button{
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 4px;
+    margin-left: 14px;
+}

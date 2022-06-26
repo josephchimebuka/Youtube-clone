@@ -1,0 +1,29 @@
+.video_container{
+    width: 270px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.video_image{
+    width: 270px;
+    height: 150px;
+    
+}
+.text_info{
+    margin-left: 10px;
+}
+.text_info h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.text_info p{
+    font-size: 14px;
+    color: #606060;
+    padding-top: 5px;
+}
+.text-container{
+    display: flex;
+    padding: 10px;
+   
+}

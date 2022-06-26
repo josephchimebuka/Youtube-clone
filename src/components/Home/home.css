@@ -1,0 +1,5 @@
+.video_section{
+    display: flex;
+    position: relative;
+    margin: 20px 0;
+}
